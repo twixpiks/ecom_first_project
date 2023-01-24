@@ -1,0 +1,107 @@
+html, body{
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #44525e;
+    background-color: #f6f8f9;
+}
+.header__topline__container{
+    width: 100%;
+    background-color: white;
+}
+.header__topline{
+    max-width: 1200px;
+    margin:  1px auto;
+    border-bottom: #f6f8f9 1px solid;
+    padding-bottom: 5px;
+}
+.header__topline::after{
+    content: "";
+    clear: both;
+    width: 100%;
+    display: block;
+}
+
+
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+  text-decoration: none;
+  color: #44525e;
+}
+
+
+.header__email{
+    float: left;
+    width: 50%;
+    padding-top: 5px;
+}
+.header__email span{
+    margin-right: 20px;
+}
+
+.header__social{
+    float: left;
+    text-align: right;
+    align-self: flex-end;
+    width: 50%;
+}
+.header__social img{
+    margin: 5px;
+    padding-top: 5px;
+}
+
+
+.header__navigation{
+    max-width: 1200px;
+    margin:  1px auto;
+    border-bottom: #f6f8f9 1px solid;
+    padding-bottom: 5px;
+}
+
+.header__navigation::after{
+    content: "";
+    clear: both;
+    width: 100%;
+    display: block;
+}
+
+
+.header__navigation-buttons{
+    float: left;
+    width: 50%;
+    margin: 25px auto;
+}
+
+.header__logo{
+    float: left;
+    width: 25%;
+    margin: 20px auto;
+}
+
+.header__nav-button{
+    margin: 20px auto;
+    display: inline;
+}
+
+.header__cabinet{
+    float: left;
+    text-align: right;
+    align-self: flex-end;
+    width: 25%;
+}
+
+.header__cabinet img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    padding-top: 25px;
+}
+
+@media only screen and (max-width: 600px)
+{   .header__logo{width: 100%; text-align: center;}
+    .header__navigation-buttons{width: 100%; text-align: center;}
+    .header__cabinet{width: 100%; text-align: center;}
+    .header__email{width: 100%; text-align: center;}
+    .header__social{width: 100%; text-align: center;}    
+
+}

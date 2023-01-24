@@ -1,0 +1,54 @@
+html, body{
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #44525e;
+    background-color: #f6f8f9;
+}
+
+footer{
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer::after{
+    display: block;
+    clear: both;
+    width: 100%;
+}
+
+.footer__container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.footer_logo{
+    flex-grow: 2;
+    margin: 0 20px;
+}
+
+.footer__links{
+}
+
+.footer_payments{
+    margin: 0 20px;
+}
+
+
+
+
+footer a{
+    text-decoration: none;
+    color: #44525e;
+}
+footer a:hover{
+    text-decoration: none;
+    color:#ff5912;
+}
+
+footer h3{
+    color: #ff5912;
+}

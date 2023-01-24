@@ -1,0 +1,31 @@
+.main_info{
+    margin: 0 0;
+    background-image: url(../images/slider_1.png);
+    background-size: cover;
+    min-height: 350px;
+    position: relative;
+}
+
+.main_info::after{
+    width: 100%;
+    display: block;
+    clear: both;
+}
+
+.main_info__container{
+    width: 50%;
+    text-align: left;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main_info__container span{
+    font-weight: bold;
+}
+.main_info__container h1{
+    color: #ff5912;
+}
